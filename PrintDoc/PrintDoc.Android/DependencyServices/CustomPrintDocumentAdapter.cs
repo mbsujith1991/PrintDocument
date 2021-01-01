@@ -13,7 +13,7 @@ using Android.Views;
 using Android.Widget;
 using Java.IO;
 
-namespace PrintDoc.Droid
+namespace PrintDoc.Droid.DependencyServices
 {
     public class CustomPrintDocumentAdapter : PrintDocumentAdapter
     {

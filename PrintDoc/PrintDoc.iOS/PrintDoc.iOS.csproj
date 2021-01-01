@@ -67,7 +67,7 @@
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
-    <Compile Include="PrintDocumentService.cs" />
+    <Compile Include="DependencyServices\PrintDocumentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

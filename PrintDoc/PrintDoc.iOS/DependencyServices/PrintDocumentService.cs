@@ -5,12 +5,13 @@ using System.Linq;
 using System.Text;
 
 using Foundation;
-using PrintDoc.iOS;
+using PrintDoc.DependencyServices;
+using PrintDoc.iOS.DependencyServices;
 using UIKit;
 using Xamarin.Forms;
 
 [assembly:Dependency(typeof(PrintDocumentService))]
-namespace PrintDoc.iOS
+namespace PrintDoc.iOS.DependencyServices
 {
     public class PrintDocumentService : IPrintDocumentService
     {

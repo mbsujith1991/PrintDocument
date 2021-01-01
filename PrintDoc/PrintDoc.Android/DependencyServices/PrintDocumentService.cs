@@ -12,11 +12,12 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Plugin.CurrentActivity;
-using PrintDoc.Droid;
+using PrintDoc.DependencyServices;
+using PrintDoc.Droid.DependencyServices;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(PrintDocumentService))]
-namespace PrintDoc.Droid
+namespace PrintDoc.Droid.DependencyServices
 {
     public class PrintDocumentService : IPrintDocumentService
     {
